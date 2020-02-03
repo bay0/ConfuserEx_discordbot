@@ -1,0 +1,10 @@
+<project outputDir="<OUTPUT>" baseDir="<WORKPLACE>" xmlns="http://confuser.codeplex.com">
+  <module path="<NAME>">
+    <rule pattern="true" inherit="false">
+      <protection id="ctrl flow" />
+      <protection id="ref proxy" />
+      <protection id="constants" />
+      <protection id="resources" />
+    </rule>
+  </module>
+</project>
